@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## After downloading
-Enter to the folder `/baraton` adn run the following commands.<br>
+Enter to the folder `/baraton` and run the following commands.<br>
 
 ### `npm install`
 Will install all needed dependencies.<br>
