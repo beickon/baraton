@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ant-layout-header {
+  background-color: transparent !important;
+}
+
+.ant-drawer-header {
+  padding-top: 85px !important;
+}
+
+.ant-hidden-input {
+  top: 0 !important;
+  right: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  z-index: -1000 !important;
+  overflow: hidden !important;
+  max-height: none !important;
+  visibility: hidden !important;
+  position: absolute !important;
+}
+
+.steps-content {
+  padding-top: 25px !important;
+}
+
+.ant-steps-item-title {
+  padding-top: 5px !important;
+}
+
+.ant-card-body {
+  display: grid;
+  grid-gap: 20px;
+  align-content: center;
+  justify-content: center;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.ant-table-expanded-row {
+  td:nth-child(2)
+  {
+    p{
+      width: 10px;
+      margin: 0 !important;
+    }
+  }
+}

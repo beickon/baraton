@@ -1,0 +1,17 @@
+.shopping-cart {
+    display: grid;
+    grid-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: .9fr .1fr;
+}
+
+@media screen and (max-width: 800px) {
+  .shopping-cart {
+    display: grid;
+    grid-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+}

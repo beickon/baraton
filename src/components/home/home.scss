@@ -1,0 +1,13 @@
+.home {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.filter-bar {
+    display: grid;
+    grid-gap: 20px;
+    padding-bottom: 3%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

@@ -1,0 +1,92 @@
+{ "categories": [
+	{
+		"id": 1,
+		"icon": "coffee",
+		"name": "Bebidas",
+		"sublevels": [
+			{
+				"id": 1,
+				"icon": "",
+				"name": "Gaseosas",
+				"sublevels": [
+					{
+						"id": 2,
+						"icon": "",
+						"name": "Con azúcar"
+					},
+					{
+						"id": 3,
+						"icon": "",
+						"name": "Sin azúcar"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 2,
+		"icon": "alert",
+		"name": "Desayunos",
+		"sublevels": [
+			{
+				"id": 4,
+				"icon": "",
+				"name": "Fake 1",
+				"sublevels": [
+					{
+						"id": 5,
+						"icon": "",
+						"name": "Fake 2"
+					},
+					{
+						"id": 6,
+						"icon": "",
+						"name": "Fake 3",
+						"sublevels": [
+							{
+								"id": 7,
+								"icon": "",
+								"name": "Fake 4"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8,
+		"icon": "apple",
+		"name": "Almuerzos",
+		"sublevels": [
+			{
+				"id": 9,
+				"icon": "gitlab",
+				"name": "Fake 5"
+			},
+			{
+				"id": 10,
+				"icon": "codepen",
+				"name": "Fake 6"
+			}
+		]
+	},
+	{
+		"id": 11,
+		"icon": "filter",
+		"name": "Vinos",
+		"sublevels": [
+			{
+				"id": 12,
+				"icon": "sketch",
+				"name": "Fake 8"
+			},
+			{
+				"id": 13,
+				"icon": "instagram",
+				"name": "Fake 9"
+			}
+		]
+	}
+]
+}

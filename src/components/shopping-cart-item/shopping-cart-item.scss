@@ -1,0 +1,30 @@
+.shopping-cart-item {
+    .ant-card-body:before {
+        content: none;
+     }
+
+     .ant-card-body:after {
+        content: none;
+     }
+    .ant-card-body {
+        height: 200px;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: .2fr .4fr .2fr .2fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .shopping-cart-item {
+        margin-bottom: 10px !important;
+
+        .ant-card-body {
+            grid-gap: 10px;
+            grid-template-columns: .3fr .3fr .3fr;
+
+            input {
+                width: 130px;
+            }
+        }
+    }
+}

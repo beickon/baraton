@@ -1,9 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import App from './App';
+import React from 'react';
+import { expect } from 'chai';
+import { Provider } from "react-redux";
+import { configure, shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+import configureMockStore from "redux-mock-store";
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+configure({ adapter: new Adapter() });
+
+const mockStore = configureMockStore();
+const shoppingCart = [{ id: 1 }];
+const initialState = {shoppingCart};
+const store = mockStore(initialState);
+
+describe('<App />', () => {
+    let connectedWrapper;
+
+    beforeEach(()=>{
+        connectedWrapper = shallow(<Provider store={store}><App /></Provider>);
+    });
+
+    it('Render the regular component', () => {
+      expect(connectedWrapper.length).equal(1)
+    });
+
 });
